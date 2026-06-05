@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    width: 1440px;
+    padding: 24px 64px 0px 64px;
+}
+
+header{
+
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+a{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.ancors{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.link-four{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+button{
+    width: 88px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#btn-secundary{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+main{
+    padding-top: 112px;
+    padding-bottom: 112px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.content-main{
+    width: 768px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.action-main{
+    display: flex;
+    gap: 16px;
+}
+
+form{
+    width: 399px;
+    padding-left: 12px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+
+    border: 1px solid black;
+}
+
+footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.content-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.credits{
+    width: 1280px;
+
+    border-top: 1px solid black;
+    padding-top: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credits > p{
+    font-size: 14px;
+}
+
+.credits > a{
+    font-size: 14px;
+}
+
+.ancors-credits{
+    display: flex;
+    gap: 24px;
+    text-decoration: underline;
+}
+
